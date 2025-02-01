@@ -16,6 +16,16 @@ navLink.forEach(link=>{
 
 
 // SHOW SCROLL UP
+const scrollup = () => {
+  const scrollup = document.getElementById("scrollup")	
+  if (this.scrollY >=250){
+    scrollupBtn.classList.remove("-bottom-1/2")
+    scrollupBtn.classList.add("-bottom-1/2")
+  } else {
+    scrollupBtn.classList.add("-bottom-1/2")
+    scrollupBtn.classList.remove("-bottom-1/2")
+  }
+}
 
 // CHANGE BACKGROUND HEADER
 
