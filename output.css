@@ -608,6 +608,10 @@ video {
   position: relative;
 }
 
+.-bottom-1\/2{
+  bottom: -50%;
+}
+
 .-left-12{
   left: -3rem;
 }
@@ -640,10 +644,6 @@ video {
   bottom: 0px;
 }
 
-.bottom-4{
-  bottom: 1rem;
-}
-
 .left-0{
   left: 0px;
 }
@@ -674,14 +674,6 @@ video {
 
 .top-1\/2{
   top: 50%;
-}
-
-.bottom-1\/2{
-  bottom: 50%;
-}
-
-.-bottom-1\/2{
-  bottom: -50%;
 }
 
 .-z-10{
